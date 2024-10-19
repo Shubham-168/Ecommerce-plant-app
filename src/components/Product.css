@@ -1,0 +1,79 @@
+/* Product Card */
+.product-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  /* Hover effect on product card */
+  .product-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 100%;
+    height: 50%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Product Name */
+  .product-name {
+    font-size: 1.2rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Product Price */
+  .product-price {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  
+  /* Actions Container */
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  /* View Product Button */
+  .view-button {
+    padding: 0.5rem 1rem;
+    background-color: #48bb78; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* View Product Button Hover */
+  .view-button:hover {
+    background-color: #38a169; /* Darker Green */
+    transform: scale(1.05);
+  }
+  
+  /* Add to Cart Button */
+  .add-button {
+    padding: 0.5rem 1rem;
+    background-color: #4299e1; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Add to Cart Button Hover */
+  .add-button:hover {
+    background-color: #3182ce; /* Darker Blue */
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,67 @@
+/* Modal Background */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #1a202c; /* Dark Gray */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  /* Cart Text */
+  .cart-text {
+    font-size: 1.1rem;
+    color: #2d3748; /* Dark Blue-gray */
+    margin-bottom: 1rem;
+  }
+  
+  /* Heading */
+  .modal-content h2 {
+    font-size: 1.5rem;
+    color: #38a169; /* Green color */
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph */
+  .modal-content p {
+    font-size: 1rem;
+    color: #2d3748; /* Dark Blue-gray */
+    margin-bottom: 2rem;
+  }
+  
+  /* Button */
+  .continue-button {
+    padding: 0.7rem 1.5rem;
+    background-color: #4299e1; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Button Hover Effect */
+  .continue-button:hover {
+    background-color: #3182ce; /* Darker Blue */
+    transform: scale(1.05);
+  }
+  
+
+
+
+  
